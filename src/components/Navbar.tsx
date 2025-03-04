@@ -1,4 +1,3 @@
-import React from "react";
 import { Menu } from "lucide-react";
 
 const Navbar = () => {
@@ -8,7 +7,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <img
-              src="./images/QA.png"
+              src="/src/components/images/QA.jpeg"
               alt="Test Community Kenya"
               className="h-10 w-auto"
             />

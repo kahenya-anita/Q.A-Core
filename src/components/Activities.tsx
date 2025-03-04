@@ -41,35 +41,35 @@ const Activities = () => {
   const events = {
     upcoming: [
       {
-        title: "Lorem ipsum dolor sit amet",
-        date: "December , 2024",
+        title: "Test Chat2",
+        date: "Tentative , 2025",
         time: "0:00 PM - 0:00 PM",
         description:
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
         image:
-          "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          "/src/components/images/chat1.jpeg",
         link: "https://meet.google.com",
       },
-      {
-        title: "Lorem ipsum dolor sit amet",
-        date: "December , 2024",
-        time: "0:00 PM - 0:00 PM",
-        description:
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        image:
-          "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        link: "https://meet.google.com",
-      },
-      {
-        title: "Lorem ipsum dolor sit amet",
-        date: "January , 2025",
-        time: "0:00 PM - 0:00 PM",
-        description:
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco  consequat",
-        image:
-          "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-        link: "https://meet.google.com",
-      },
+      // {
+      //   title: "Lorem ipsum dolor sit amet",
+      //   date: "December , 2024",
+      //   time: "0:00 PM - 0:00 PM",
+      //   description:
+      //     "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      //   image:
+      //     "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      //   link: "https://meet.google.com",
+      // },
+      // {
+      //   title: "Lorem ipsum dolor sit amet",
+      //   date: "January , 2025",
+      //   time: "0:00 PM - 0:00 PM",
+      //   description:
+      //     "Ut enim ad minim veniam, quis nostrud exercitation ullamco  consequat",
+      //   image:
+      //     "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      //   link: "https://meet.google.com",
+      // },
     ],
     past: [
       {
@@ -78,25 +78,25 @@ const Activities = () => {
         time: "8:00 PM - 9:00 PM",
         description:
           "Whether you're new to QA or looking to strengthen your skills, this session is packed with insights on QA fundamentals, tools, and best practices to help you excel.",
-        image: "https://shorturl.at/yqtuA",
+        image: "/src/components/images/QA1.jpeg",
       },
       {
-        title: "Lorem ipsum dolor sit amet",
-        date: "December , 2024",
-        time: "0:00 PM - 0:00 PM",
+        title: "Decoding Git and Github For QAs",
+        date: "January 16 , 2025",
+        time: "8:00 PM - 9:00 PM",
         description:
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+          "With extensive experience in QA and version control systems, Koffi will guide you through practical techniques and real-world applications of GIT and GitHub in QA workflows.",
         image:
-          "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          "/src/components/images/chat2.jpeg",
       },
       {
-        title: "Lorem ipsum dolor sit amet",
-        date: "December , 2024",
-        time: "0:00 PM - 0:00 PM",
+        title: "Test Chat",
+        date: "January 31 , 2025",
+        time: "6:00 PM - 10:00 PM",
         description:
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+          "A casual, face-to-face meetup designed to foster connections, spark conversations, and share insights about software testing. Whether you’re an experienced QA professional or just starting out, this is the perfect space to grow and learn.",
         image:
-          "https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+          "/src/components/images/testchat.jpeg",
       },
     ],
   };

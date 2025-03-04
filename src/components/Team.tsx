@@ -37,29 +37,27 @@ const Team = () => {
     {
       name: "Raphael Nyangenya",
       role: "Community Manager",
-      image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/src/components/images/raf.jpeg",
       linkedin: "https://www.linkedin.com/in/raphael-nyangenya-8ba034b2/",
     },
     {
       name: "Collins Kipkoech",
       role: "Community Manager",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/src/components/images/collis.jpeg",
       linkedin: "https://www.linkedin.com/in/collins-kipkoech0317/",
     },
     {
       name: "Anita Kahenya",
       role: "Community Manager",
       image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "/src/components/images/anita.JPG",
       linkedin: "https://www.linkedin.com/in/anita-kahenya/",
     },
     {
       name: "Vicky Jeptoo",
       role: "Community Manager",
       image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "/src/components/images/vicki.jpeg",
       linkedin: "https://www.linkedin.com/in/vicky-jeptoo-b2b05316a/",
     },
     {
