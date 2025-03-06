@@ -50,16 +50,16 @@ const Activities = () => {
           "/src/components/images/chat1.jpeg",
         link: "https://meet.google.com",
       },
-      // {
-      //   title: "Lorem ipsum dolor sit amet",
-      //   date: "December , 2024",
-      //   time: "0:00 PM - 0:00 PM",
-      //   description:
-      //     "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-      //   image:
-      //     "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      //   link: "https://meet.google.com",
-      // },
+      {
+        title: "Q.A Summit 2025",
+        date: "April 4 , 2025",
+        time: "9:00 AM - 4:00 PM",
+        description:
+          "We’re excited to invite you to a one-of-a-kind virtual event designed for QA professionals, AI enthusiasts, and software testers!",
+        image:
+          "/src/components/images/upcoming.jpeg",
+        link: "https://kiwamitech.com/sqasummit2025/",
+      }
       // {
       //   title: "Lorem ipsum dolor sit amet",
       //   date: "January , 2025",

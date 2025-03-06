@@ -31,7 +31,7 @@ const Team = () => {
       name: "Wainaina Kasyoka",
       role: "Community Lead",
       image:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "/src/components/images/wai.jpeg",
       linkedin: "https://www.linkedin.com/in/wainaina-kasyoka/",
     },
     {
@@ -64,23 +64,16 @@ const Team = () => {
       name: "Angela Kandie",
       role: "Community Manager",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "/src/components/images/angie.jpeg",
       linkedin: "https://www.linkedin.com/in/angela-kandie/",
     },
     {
       name: "Koffi Kelvin",
       role: "Community Manager",
       image:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "/src/components/images/koffi.jpeg",
       linkedin: "https://www.linkedin.com/in/koffikelvin/",
-    },
-    {
-      name: "John Doe",
-      role: "Community Manager",
-      image:
-        "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      linkedin: "https://linkedin.com",
-    },
+    }
   ];
 
   return (
