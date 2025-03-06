@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "https://q-a-comm-jhtechteams-projects.vercel.app/",
-      "destination": "https://www.testcommunity.org",
+      "source": "q-a-comm-jhtechteams-projects.vercel.app/",
+      "destination": "testcommunity.org",
       "permanent": true
     }
   ]
