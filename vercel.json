@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/",
+      "source": "https://www.testcommunity.org",
       "destination": "https://www.testcommunity.org",
       "permanent": true
     }
