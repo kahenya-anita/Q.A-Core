@@ -1,4 +1,5 @@
 import React from 'react';
+import { images } from '../config/cloudinary.ts'
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/src/components/images/chat1.jpeg')",
+            `url(${images.chat1})`,
         }}
       >
         <div className="absolute inset-0 bg-[#002B3D] bg-opacity-75"></div>

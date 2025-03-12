@@ -1,5 +1,6 @@
-import React from "react";
 import { Calendar, Clock, Video } from "lucide-react";
+import { images } from '../config/cloudinary.ts'
+
 
 const EventCard = ({ title, date, time, description, image, link, isPast }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-all">
@@ -46,8 +47,7 @@ const Activities = () => {
         time: "0:00 PM - 0:00 PM",
         description:
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        image:
-          "/src/components/images/chat1.jpeg",
+        image: images.chat1,
         link: "https://meet.google.com",
       },
       {
@@ -56,8 +56,7 @@ const Activities = () => {
         time: "9:00 AM - 4:00 PM",
         description:
           "We’re excited to invite you to a one-of-a-kind virtual event designed for QA professionals, AI enthusiasts, and software testers!",
-        image:
-          "/src/components/images/upcoming.jpeg",
+        image: images.upcoming,
         link: "https://kiwamitech.com/sqasummit2025/",
       }
       // {
@@ -78,7 +77,7 @@ const Activities = () => {
         time: "8:00 PM - 9:00 PM",
         description:
           "Whether you're new to QA or looking to strengthen your skills, this session is packed with insights on QA fundamentals, tools, and best practices to help you excel.",
-        image: "/src/components/images/QA1.jpeg",
+        image: images.qa1,
       },
       {
         title: "Decoding Git and Github For QAs",
@@ -86,8 +85,7 @@ const Activities = () => {
         time: "8:00 PM - 9:00 PM",
         description:
           "With extensive experience in QA and version control systems, Koffi will guide you through practical techniques and real-world applications of GIT and GitHub in QA workflows.",
-        image:
-          "/src/components/images/chat2.jpeg",
+        image: images.qa2,
       },
       {
         title: "Test Chat",
@@ -95,8 +93,7 @@ const Activities = () => {
         time: "6:00 PM - 10:00 PM",
         description:
           "A casual, face-to-face meetup designed to foster connections, spark conversations, and share insights about software testing. Whether you’re an experienced QA professional or just starting out, this is the perfect space to grow and learn.",
-        image:
-          "/src/components/images/testchat.jpeg",
+        image: images.testchat,
       },
     ],
   };

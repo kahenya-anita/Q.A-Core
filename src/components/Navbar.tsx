@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import { images } from '../config/cloudinary.ts'
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <img
-              src="/src/components/images/QA.jpeg"
+              src={images.logo2}
               alt="Test Community Kenya"
               className="h-10 w-auto"
             />

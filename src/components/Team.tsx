@@ -1,4 +1,4 @@
-import React from "react";
+import { images } from '../config/cloudinary.ts'
 import { Linkedin } from "lucide-react";
 
 const TeamMember = ({ name, role, image, linkedin }) => (
@@ -30,48 +30,43 @@ const Team = () => {
     {
       name: "Wainaina Kasyoka",
       role: "Community Lead",
-      image:
-        "/src/components/images/wai.jpeg",
+      image: images.wainaina,
       linkedin: "https://www.linkedin.com/in/wainaina-kasyoka/",
     },
     {
       name: "Raphael Nyangenya",
       role: "Community Manager",
-      image: "/src/components/images/raf.jpeg",
+      image: images.raph,
       linkedin: "https://www.linkedin.com/in/raphael-nyangenya-8ba034b2/",
     },
     {
       name: "Collins Kipkoech",
       role: "Community Manager",
-      image: "/src/components/images/collis.jpeg",
+      image: images.collins,
       linkedin: "https://www.linkedin.com/in/collins-kipkoech0317/",
     },
     {
       name: "Anita Kahenya",
       role: "Community Manager",
-      image:
-        "/src/components/images/anita.JPG",
+      image: images.anita,
       linkedin: "https://www.linkedin.com/in/anita-kahenya/",
     },
     {
       name: "Vicky Jeptoo",
       role: "Community Manager",
-      image:
-        "/src/components/images/vicki.jpeg",
+      image: images.vicki,
       linkedin: "https://www.linkedin.com/in/vicky-jeptoo-b2b05316a/",
     },
     {
       name: "Angela Kandie",
       role: "Community Manager",
-      image:
-        "/src/components/images/angie.jpeg",
+      image: images.angie,
       linkedin: "https://www.linkedin.com/in/angela-kandie/",
     },
     {
       name: "Koffi Kelvin",
       role: "Community Manager",
-      image:
-        "/src/components/images/koffi.jpeg",
+      image: images.koffi,
       linkedin: "https://www.linkedin.com/in/koffikelvin/",
     }
   ];
