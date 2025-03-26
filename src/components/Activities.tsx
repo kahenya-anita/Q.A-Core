@@ -1,6 +1,5 @@
 import { Calendar, Clock, Video } from "lucide-react";
-import { images } from '../config/cloudinary.ts'
-
+import { images } from "../config/cloudinary.ts";
 
 const EventCard = ({ title, date, time, description, image, link, isPast }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition-all">
@@ -31,7 +30,7 @@ const EventCard = ({ title, date, time, description, image, link, isPast }) => (
           className="inline-flex items-center text-[#002B3D] hover:text-[#FFA726]"
         >
           <Video className="w-4 h-4 mr-2" />
-          Join Meeting
+          RSVP Here
         </a>
       )}
     </div>
@@ -42,13 +41,25 @@ const Activities = () => {
   const events = {
     upcoming: [
       {
-        title: "Test Chat2",
-        date: "Tentative , 2025",
-        time: "0:00 PM - 0:00 PM",
-        description:
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-        image: images.chat1,
-        link: "https://meet.google.com",
+        title: "Test Chat",
+        date: "29th March , 2025",
+        time: "11:00 AM",
+        description: (
+          <>
+            We've got an amazing test chat coming up at 📍La Vida cafe <br />
+            💡 <strong>Reminders:</strong> <br />
+            ✅ The restaurant has a KES 1,200 minimum spend. <br />
+            ✅ Check out the menu here :  
+            <a href="https://shorturl.at/eudtz" target="_blank" rel="noopener" style={{ color: "#FFA726", fontWeight: "bold" }}>
+               View Menu
+            </a> <br />
+            ✅ Parking is FREE! No stress about where to leave your car! 🚗💨 <br />
+            ✅ Tag a friend, share in your networks, and let’s make this an incredible hangout! <br />
+            See you there! 🚀
+          </>
+        ),
+        image: images.chat2,
+        link: "https://lu.ma/ffsnlbwy",
       },
       {
         title: "Q.A Summit 2025",
@@ -58,7 +69,7 @@ const Activities = () => {
           "We’re excited to invite you to a one-of-a-kind virtual event designed for QA professionals, AI enthusiasts, and software testers!",
         image: images.upcoming,
         link: "https://kiwamitech.com/sqasummit2025/",
-      }
+      },
       // {
       //   title: "Lorem ipsum dolor sit amet",
       //   date: "January , 2025",
